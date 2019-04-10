@@ -2,10 +2,10 @@
 #include "PubSubClient.h"
 #include <ArduinoJson.h>
 const char* ssid = "XXWL";                     //wifi名称
-const char* password = "159357-*";             //wifi密码   
+const char* password = "159357000";             //wifi密码   
 const char* mqtt_server = "183.230.40.39";     //onenet服务器ip
-const char* dev_id = "518823863";              //设备id
-const char* APIkey = "3qUBlCAM2=F64zVJV3kEGXj=lIE=";//apikey
+const char* dev_id = "518823862";              //设备id
+const char* APIkey = "3qUBlCAM2=F64zVJV3kEGXj=lIS=";//apikey
 const char* product_id = "218108";             //产品id
 WiFiClient espClient;
 PubSubClient client(espClient);
